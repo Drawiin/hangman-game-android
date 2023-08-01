@@ -1,4 +1,5 @@
 import org.gradle.kotlin.dsl.libs
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 @Suppress("DSL_SCOPE_VIOLATION") // TODO: Remove once KTIJ-19369 is fixed
 plugins {
@@ -37,7 +38,7 @@ android {
         targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = libs.versions.jvm.target.get()
+        jvmTarget = JavaVersion.VERSION_17.toString()
     }
     buildFeatures {
         compose = true

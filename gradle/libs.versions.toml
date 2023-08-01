@@ -12,7 +12,6 @@ compose-compiler= "1.4.8"
 android-sdk-compile = "33"
 android-sdk-target = "33"
 android-sdk-min = "27"
-jvm-target = "17"
 
 [libraries]
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
