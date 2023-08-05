@@ -1,4 +1,4 @@
-package br.com.drawiin.convention.utils
+package br.com.drawiin.convention.hangmangame.utils
 
 import org.gradle.api.Project
 import org.gradle.api.artifacts.VersionCatalog
