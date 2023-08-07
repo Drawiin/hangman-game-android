@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Hangman Game"
 include(":app")
+include(":feature:text-reader")
